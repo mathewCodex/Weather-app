@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="map.css" />
+
+    <title>weather APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="current-info">
+        <div class="date-container">
+          <div class="time" id="time">12:30<span id="am-pm">PM</span></div>
+          <div class="date" id="date">Monday,27 july</div>
+
+          <div class="others" id="current-weather-items"></div>
+        </div>
+        <div class="place-container">
+          <div class="time-zone" id="time-zone">Africa</div>
+          <div id="country" class="country">Nigeria</div>
+          <br />
+          <br />
+          <!-- <div class="news-box">
+            <img src="./team (2).JPG" alt="" class="new-image">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="updates">Get NEWs Updates</h2>
+            
+            <br>
+            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga explicabo ipsum minima magnam labore consequatur laboriosam eaque, omnis nostrum. Vitae quis consequuntur deserunt tempore dicta eum voluptas nostrum minus nihil debitis, libero magnam, error sint alias officia accusantium ratione eos accusamus, consequatur adipisci aut? Repellat laudantium beatae quasi autem quas!
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+    <!--blog-->
+<section class="section blog">
+   <!--section title-->
+    <div class="section-title">
+       <h2>NEWs blog</h2>
+        <div class="underline"></div>
+    </div>
+    <!--end of section title-->
+    <div class="section-center blog-center">
+      <!--single article-->
+      <div class="card">
+         <!--front of the card-->
+         <a href="#">
+         <div class="card-side card-front" id="blog-dynamic">
+           <img src="team (2).JPG" alt="new-images" id="blog-images">
+            <div class="card-info">
+              <h4 id="blog-article">Article title</h4>
+              <p id="blog-text">
+
+                <br>
+                LOADING...
+               <!-- Get latest from the globe🌏 to stay connected🧷, adipisicing elit.
+                Officiis asperiores numquam pariatur eveniet rerum perspiciatis earum dolorum placeat atque adipisci!
+                 Numquam modi nemo natus quo ullam expedita ex atque? 
+                Natus obcaecati dolorem ducimus! Saepe debitis dolor quasi repudiandae qui nulla. -->
+              </p>
+                <div class="card-footer">
+                  <img src="img-1.jpg" alt="author image"/>
+                   <p>7 min read</p>
+                </div>
+            </div>
+         </div>
+        </a>
+         <!--card back-->
+         <!-- <div class="card-side card-back">
+           <button class="btn">read more</button>
+         </div> -->
+      </div>
+      <!--end of single article-->
+    
+  
+
+    </div>
+</section>
+<!--end of blog-->
+    <!-- blogger section -->
+    <section class="future-section">
+    <div class="future-forecast">
+      <div class="today" id="current-temp">
+        <img
+          src="https://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather-icon"
+          class="w-icon"
+        />
+        <div class="other">
+          <div class="day">Monday</div>
+          <div class="temp">Night- 25.6&#176; c</div>
+          <div class="temp">Day- 35.6&#176; c</div>
+        </div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
+          <div class="day">Tue</div>
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather-icon"
+            class="w-icon"
+          />
+
+          <div class="temp">Night- 25.6&#176; c</div>
+          <div class="temp">Day- 35.6&#176; c</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Tue</div>
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather-icon"
+            class="w-icon"
+          />
+
+          <div class="temp">Night- 25.6&#176; c</div>
+          <div class="temp">Day- 35.6&#176; c</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Tue</div>
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather-icon"
+            class="w-icon"
+          />
+
+          <div class="temp">Night- 25.6&#176; c</div>
+          <div class="temp">Day- 35.6&#176; c</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Tue</div>
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather-icon"
+            class="w-icon"
+          />
+
+          <div class="temp">Night- 25.6&#176; c</div>
+          <div class="temp">Day- 35.6&#176; c</div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  
+    <script src="map.js"></script>
+    <script src="./lib/moment.min.js"></script>
+    <script>
+      console.log(moment());
+    </script>
+  </body>
+</html>
