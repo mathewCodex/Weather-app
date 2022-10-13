@@ -37,9 +37,7 @@ const months = [
 ];
 
 //API _ KEY..
-const API_KEY = "5381808ef7ebf0696a58e2d56cdc3d0b";
-const API_NEWS_KEY = "41134324-b1fe-4def-9f3b-19e91b9e7b44";
-const NEWS_API_2 = "bfd38d5e1aed425989c48b32fa21a095";
+
 setInterval(() => {
   const time = new Date();
   const month = time.getMonth();
